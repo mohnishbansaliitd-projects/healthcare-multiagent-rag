@@ -1,0 +1,28 @@
+{
+  "diseases": [
+    {
+      "id": "DIS_001",
+      "name": "Type 2 Diabetes Mellitus",
+      "symptoms": ["increased thirst", "frequent urination", "unexplained weight loss", "fatigue", "blurred vision"],
+      "emergency_flags": ["blood glucose > 400 mg/dL", "ketones in urine", "severe confusion", "fruity breath"],
+      "follow_up_protocol": "Check fasting blood sugar daily. Schedule HbA1c test every 3 months. Verify foot inspection weekly.",
+      "first_line_management": "Metformin therapy as prescribed, dietary glycemic index management, daily aerobic exercise."
+    },
+    {
+      "id": "DIS_002",
+      "name": "Hypertension (Stage 1 & 2)",
+      "symptoms": ["often asymptomatic", "morning headaches", "dizziness", "shortness of breath", "nosebleeds in severe cases"],
+      "emergency_flags": ["systolic BP > 180 mmHg or diastolic > 120 mmHg", "chest pain", "sudden visual disturbances", "numbness"],
+      "follow_up_protocol": "Monitor seated BP twice daily (morning and evening). Schedule physician review after 14 days of medication initiation.",
+      "first_line_management": "Sodium restriction (<2g/day), DASH diet, ACE inhibitors / ARBs as prescribed by physician."
+    },
+    {
+      "id": "DIS_003",
+      "name": "Acute Upper Respiratory Infection",
+      "symptoms": ["rhinorrhea", "nasal congestion", "sore throat", "mild fever", "cough"],
+      "emergency_flags": ["stridor", "respiratory rate > 30 breaths/min", "cyanosis", "high fever > 39.5C unresponsive to antipyretics"],
+      "follow_up_protocol": "Automated follow-up on Day 3 and Day 7. Inquire about fever resolution and persistent cough.",
+      "first_line_management": "Supportive hydration, paracetamol/ibuprofen for fever, rest. Avoid unnecessary antibiotic prescription."
+    }
+  ]
+}
