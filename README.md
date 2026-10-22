@@ -47,10 +47,10 @@ outputs/figures/                 telemetry dashboard
 
 ## How to run
 
-No requirements file is included. From the imports: numpy, pandas, matplotlib, requests and pytest. For embedding-based RAG, install Ollama and pull the models:
+Dependencies are listed in `requirements.txt`. For embedding-based RAG, install Ollama and pull the models:
 
 ```
-pip install numpy pandas matplotlib requests pytest
+pip install -r requirements.txt
 ollama pull bge-m3
 ollama pull granite3.1-dense:8b
 python -m pytest tests
@@ -65,6 +65,6 @@ Without Ollama the RAG agent prints a notice and falls back to keyword matching,
 - The knowledge base has only 3 conditions and the similarity threshold was tuned on it by hand.
 - No evaluation set; answer quality and triage accuracy are not measured.
 - Not validated for clinical use and should not be used for real patient care.
-- Next steps: add a labelled evaluation set, a larger reviewed knowledge base, and a requirements file.
+- Next steps: add a labelled evaluation set and a larger reviewed knowledge base.
 
 Mohnish Bansal, B.Tech Materials Engineering, IIT Delhi
